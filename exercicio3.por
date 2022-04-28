@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro mul = 5, cont, intervalo
+		inteiro cont, intervalo
 		escreva("Numero:")
 		leia(intervalo)
 		para(cont=0;cont <= intervalo; cont=cont+5){

@@ -1,23 +1,19 @@
 programa
-{
-	
+{	
 	funcao inicio()
 	{
-		inteiro n1 = 1 , n2 = 1, sequencia, limite
+		inteiro n1 = 1 , n2 = 1, limite, sequencia
 		escreva("Digite um número:")
 		leia(limite)
-
 		
+		escreva(n1," ")
+		sequencia = n2
+		para(inteiro cont = 1; sequencia <= limite; cont++){
+			escreva(sequencia," ")
+			sequencia = n1+ n2
+			n1 = n2
+			n2 = sequencia
+			
+		}	
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 127; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
